@@ -1,0 +1,13 @@
+#include<conio.h>
+#include<stdio.h>
+int main()
+{
+ int a,b;
+ printf("enter any two number to find greater\n");
+ scanf("%d%d",&a,&b);
+ if(a>b)
+ printf("a=%d is greater than b=%d",a,b);	
+ else 
+ printf("b=%d is greater than a=%d",b,a);	
+	 getch();
+}
